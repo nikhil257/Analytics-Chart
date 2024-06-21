@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+.main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: gilroy;
+    color:white;
+    background-color:black;
+}
+.menu{
+    width: 18%;
+    height: 98%;
+    background-color: rgb(30, 30, 33);
+    padding: 20px 40px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.menu h1{
+    margin-bottom:30px;
+}
+.menu button{
+    width:180px;
+    padding:10px 20px;
+    background-color: transparent;
+    border:none;
+    font-family: gilroy;
+    cursor:pointer;
+    color:white;
+    margin-top: 40px;
+    text-align:left;
+    transition: 0.15s;
+}
+.menu button:hover{
+    background-color: rgb(61, 111, 245);
+    color:white;
+    border-radius:8px;
+}
+
+.data{
+    width: 80%;
+    height: 98%;
+    padding:15px 25px;
+    background-color:rgb(19, 21, 22);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.data > input{
+    width: 100%;
+    background-color: transparent;
+    color:rgb(221, 221, 221);
+    border: none;
+    border-bottom: 1px solid rgb(182, 182, 182);
+    font-size:16px;
+    padding:8px;
+}
+.heading{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+    align-items: center;
+}
+.heading > h1{
+    font-weight:200;
+}
+.heading input{
+    background-color: transparent;
+    color: rgb(221, 221, 221);
+    border: none;
+    font-size: 15px;
+}
+.social{
+    width: 100%;
+    height: 20%;
+    margin-top:25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.box1{
+    width: 32.5%;
+    height: 100%;
+    background-color: rgb(30, 31, 35);
+    border-radius: 10px;
+    padding:15px;
+    display: flex;
+    justify-content: space-between;
+}
+.box1 h5{
+    font-size:18px;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+.box1 h5 i{
+    color:rgb(30, 140, 219);
+}
+.box1 p{
+    font-size:11px;
+}
+.box1 h1{
+    margin-top:20px;
+}
+
+.box2{
+    width: 32.5%;
+    height: 100%;
+    background-color:  rgb(30, 31, 35);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding:15px;
+}
+.box2 h5{
+    font-size:18px;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+.box2 h5 i{
+    color:rgb(219, 30, 118);
+}
+.box2 p{
+    font-size:11px;
+}
+.box2 h1{
+    margin-top:20px;
+}
+.box3{
+    width: 32.5%;
+    height: 100%;
+    background-color:  rgb(30, 31, 35);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding:15px;
+}
+.box3 h5{
+    font-size:18px;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+.box3 h5 i{
+    color:rgb(75, 147, 255);
+}
+.box3 p{
+    font-size:11px;
+}
+.box3 h1{
+    margin-top:20px;
+}
+.content{
+    width: 100%;
+    height: 56%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.chart{
+    width: 32.5%;
+    height: 100%;
+    background-color:  rgb(30, 31, 35);
+    margin-top:17px;
+    border-radius:10px;
+    overflow: hidden;
+}
+.chart > img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: top;
+}
+.chart > p{
+    padding:10px;
+}
+.chart p i{
+    color:rgb(30, 140, 219);
+}
+.map{
+    width: 66.2%;
+    height: 100%;
+    margin-top:17px;
+    border-radius: 10px;
+    overflow: hidden;
+    background: url(https://datacenters-wp-production.azurewebsites.net/wp-content/uploads/2023/02/Homepage-datacenters-map-web.jpg);
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+.map > h2{
+    padding:10px 20px;
+    font-size:18px;
+    font-weight: 200;
+}
